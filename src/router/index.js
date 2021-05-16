@@ -9,6 +9,7 @@ import Home from '@/pages/home/index'
 
 Vue.use(Router)
 
+//xixiiii
 /* 初始路由 */
 export default new Router({
     routes: [
@@ -29,7 +30,7 @@ export const DynamicRoutes = [
         redirect: 'home',
         meta: {
             requiresAuth: true,
-            name: '首页'
+            name: '首页1233'
         },
         children: [
             {
@@ -38,7 +39,7 @@ export const DynamicRoutes = [
                 component: Home,
                 name: 'home',
                 meta: {
-                    name: '首页',
+                    name: '首页11122225',
                     icon: 'tree'
                 }
             }
